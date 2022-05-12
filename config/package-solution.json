@@ -32,6 +32,12 @@
         "id": "bf3579d8-990a-43cb-b23f-31197ec77047",
         "version": "1.0.0.0"
       }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Read"
+      }
     ]
   },
   "paths": {
