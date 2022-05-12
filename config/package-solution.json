@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-first-graph-web-part-client-side-solution",
+    "id": "806dea32-ed81-4e33-a7c5-1a2005e2b1e7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MyFirstGraphWebPart description"
+      },
+      "longDescription": {
+        "default": "MyFirstGraphWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "my-first-graph-web-part Feature",
+        "description": "The feature that activates elements of the my-first-graph-web-part solution.",
+        "id": "bf3579d8-990a-43cb-b23f-31197ec77047",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/my-first-graph-web-part.sppkg"
+  }
+}

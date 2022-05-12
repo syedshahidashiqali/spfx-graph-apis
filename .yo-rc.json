@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "my-first-graph-web-part",
+    "libraryId": "806dea32-ed81-4e33-a7c5-1a2005e2b1e7",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MyFirstGraphWebPart",
+    "solutionShortDescription": "MyFirstGraphWebPart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
