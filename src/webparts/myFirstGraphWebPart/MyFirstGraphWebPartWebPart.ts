@@ -41,12 +41,12 @@ export default class MyFirstGraphWebPartWebPart extends BaseClientSideWebPart<IM
       .get((error, messages: any, rawResponse?: any) => {
   
         this.domElement.innerHTML = `
-        <div class="${ styles.myFirstGraphWebPart}">
-        <div class="${ styles.container}">
-          <div class="${ styles.row}">
-            <div class="${ styles.column}">
-              <span class="${ styles.title}">Welcome to SharePoint!</span>
-              <p class="${ styles.subTitle}">Use Microsoft Graph in SharePoint Framework.</p>
+        <div >
+        <div >
+          <div >
+            <div >
+              <span >Welcome to SharePoint!</span>
+              <p>Use Microsoft Graph in SharePoint Framework.</p>
               <div id="spListContainer" />
             </div>
           </div>
@@ -63,7 +63,7 @@ export default class MyFirstGraphWebPartWebPart extends BaseClientSideWebPart<IM
   private _renderEmailList(messages: MicrosoftGraph.Message[]): void {
     let html: string = '';
     for (let index = 0; index < messages.length; index++) {
-      html += `<p class="${styles.description}">Email ${index + 1} - ${escape(messages[index].subject)}</p>`;
+      html += `<p>Email ${index + 1} - ${escape(messages[index].subject)}</p>`;
     }
   
     // Add the emails to the placeholder
